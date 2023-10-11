@@ -7,4 +7,8 @@ data class Usuario(
     val Correo: String,
     val Telefono: String,
     val IDSexo: Int
-)
+){
+    override fun toString(): String {
+        return Nombre;
+    }
+}
